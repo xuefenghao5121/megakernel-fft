@@ -1,0 +1,8 @@
+# Test binaries + objects (built by `cd src && make test`).
+test_linearity
+test_impulse
+test_shift
+test_family
+bench_baseline
+bench_family
+*.o

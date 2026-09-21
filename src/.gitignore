@@ -1,0 +1,5 @@
+# Product build artifacts (see src/Makefile: `make clean`).
+*.o
+*.a
+# NDF completion receipts / evidence are process artifacts, not trunk source.
+.ndf-completion/

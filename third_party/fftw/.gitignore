@@ -1,0 +1,38 @@
+# FFTW 3.3.10 vendored source — autotools/libtool build artifacts only.
+# The pristine upstream tree (3500 files) is committed; `./configure && make`
+# regenerates everything ignored here (see UPSTREAM.md for the exact configure
+# line).  Only exact generated names are ignored so pristine tarball files such
+# as api/fftw3l.f03, api/fftw3q.f03 and fftw.pc.in remain tracked.
+*.o
+*.lo
+*.la
+*.a
+*.so
+*.so.*
+*.dylib
+Makefile
+config.h
+config.log
+config.status
+config.cache
+libtool
+stamp-h1
+.deps/
+.libs/
+_install/
+fftw.pc
+fftw3f.pc
+FFTW3Config.cmake
+FFTW3ConfigVersion.cmake
+FFTW3fConfig.cmake
+FFTW3fConfigVersion.cmake
+FFTW3lConfig.cmake
+FFTW3lConfigVersion.cmake
+api/fftw3.f03
+mpi/fftw3-mpi.f03
+mpi/fftw3l-mpi.f03
+tests/bench
+tools/fftw-wisdom
+tools/fftwf-wisdom
+tools/fftw-wisdom-to-conf
+tools/fftw_wisdom.1

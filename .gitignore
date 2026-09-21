@@ -1,0 +1,4 @@
+tmp/
+NDF-Harness/
+*.pyc
+__pycache__/
